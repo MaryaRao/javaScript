@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="value">
+        </div>
+        <div class="display">
+            <button id="btn-ac" onclick="clearInput()" class="items item-ac">AC</button>
+            <button id="btn-del" onclick="del()" class="items item-del">Del</button>
+            <button id="btn-dot" onclick="btn('.')" class="items item-dot">.</button>
+            <button id="btn-divide" onclick="btn('/')" class="items item-/">/</button>
+            <button id="btn-7" onclick="btn(7)" class="items item-7">7</button>
+            <button id="btn-8" onclick="btn(8)" class="items item-8">8</button>
+            <button id="btn-9" onclick="btn(9)" class="items item-9">9</button>
+            <button id="btn-x" onclick="btn('*')" class="items item-x">x</button>
+            <button id="btn-4" onclick="btn(4)" class="items item-4">4</button>
+            <button id="btn-5" onclick="btn(5)" class="items item-5">5</button>
+            <button id="btn-6" onclick="btn(6)" class="items item-6">6</button>
+            <button id="btn-minus" onclick="btn('-')" class="items item-minus">-</button>
+            <button id="btn-1" onclick="btn(1)" class="items item-1">1</button>
+            <button id="btn-2" onclick="btn(2)" class="items item-2">2</button>
+            <button id="btn-3" onclick="btn(3)" class="items item-3">3</button>
+            <button id="btn-plus" onclick="btn('+')" class="items item-plus">+</button>
+            <button id="btn-0" onclick="btn(0)" class="items item-ac">0</button>
+            <button id="btn-percentage" onclick="btn('%')" class="items item-percentage">%</button>
+            <button id="btn-equals" onclick="Submit()" class="items item-equals"> = </button>
+            
+        </div>
+    </div>
+    <script>
+        // let inputValue=" "
+        // function btn(val){
+        //     let input=document.getElementById('value');
+        //     inputValue += val;
+        //     input.value=inputValue;
+        // }
+        // function Submit(){
+        //     let result=eval(inputValue)
+        //     document.getElementById('value').value=result
+        // }
+        // function clearInput(){
+        //     inputValue=""
+        //     document.getElementById('value').value=""
+        // }
+      
+    //    let InputValue=document.getElementById('value');
+    //    function btn(val){
+    //     InputValue.value += val
+    //    }
+    //    function clearInput(){
+    //     InputValue.value=""
+    //    }
+    //    function Submit(){
+    //     InputValue.value=eval(InputValue.value)
+    //    }
+    //    function del(){
+    //     InputValue.value=InputValue.value.substr(0,InputValue.value.length-1)
+    //    }
+    </script>
+</body>
+</html>

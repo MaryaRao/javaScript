@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background: #eee;
+            width: 700px;
+            margin: 70px 0 0 50px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 40px 50px;
+            gap: 20px;
+        }
+        .items{
+            padding: 10px;
+           
+        }
+        .items1{
+            background-color: orangered;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+        .items2{
+            background-color: yellowgreen;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+        .items3{
+            background-color: slateblue;
+        }
+        .items4{
+            background-color: hotpink;
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .items5{
+            background-color: royalblue;
+        }
+        .items6{
+            background-color: goldenrod;
+        }
+        .items7{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items items1">first</div>
+        <div class="items items2">second</div>
+        <div class="items items3">third</div>
+        <div class="items items4">fourth</div>
+        <div class="items items5">fifth</div>
+        <div class="items items6">sixth</div>
+        <div class="items items7">seventh</div>
+    </div>
+</body>
+</html>
